@@ -106,3 +106,59 @@ main {
   gap: 60px;
 }
 
+.cards {
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 260px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #666;
+  margin-top: 20px;
+}
+
+.sub {
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.text {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+hr.line {
+  width: 30%;
+  height: 1px;
+  background-color: #666;
+  position: relative;
+  top: 10px;
+}
+
+div.curr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #666;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
